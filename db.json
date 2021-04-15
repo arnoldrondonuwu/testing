@@ -1,0 +1,15 @@
+{
+    "posts": [
+      { "id": 1, "title": "json-server", "author": "typicode" }
+    ],
+    "comments": [
+      { "id": 1, "body": "some comment", "postId": 1 }
+    ],
+    "profile": { "name": "typicode" },     
+    "data": {
+        "id_merchant": "1",
+        "nama_merchant": "UnklabBakery",
+        "alamat_merchant": "Airmadidi",
+        "kode_merchant": "df2c516b148ff19cc71f5d50130de3c1"
+    }
+  }
