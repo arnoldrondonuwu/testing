@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { Button, Text, TextInput, TouchableOpacity, View, Alert } from 'react-native';
-import auth, { firebase } from "react-native-firebase/auth"
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import AsyncStorage from '@react-native-async-storage/async-storage';

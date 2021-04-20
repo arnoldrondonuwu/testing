@@ -50,11 +50,10 @@ export default function TransactionTab({ navigation }) {
       return (
         <View style={{ padding: 8, flex: 1, flexDirection: 'row', backgroundColor: '#FFFFFF', marginBottom: 8, borderRadius: 4 }}>
           <View style={{ width: 50, textAlign: 'center', alignItems: 'center', justifyContent: 'center' }}>
-          <Ionicons name="add-outline" size={30} color="#000000" />
+          <Ionicons name="add-outline" size={20} color="#000000" />
           </View>
           <View style={{ flex: 1, position: 'relative' }}>
             <Text style={{ marginBottom: 8 }}>Rp. {item.nominal_transaksi}</Text>
-            <Text>{item.berita_transaksi}</Text>
             <Text style={{ position: 'absolute', right: 0 }}>{item.waktu_transaksi}</Text>
           </View>
         </View>

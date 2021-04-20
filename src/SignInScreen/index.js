@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Button, Text, TextInput, TouchableOpacity, View, Image} from 'react-native';
-import auth, { firebase } from "react-native-firebase/auth"
+
 
 import {AuthContext} from '../Context';
 

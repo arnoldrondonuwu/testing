@@ -19,8 +19,8 @@ export default function PaySuccessScreen({ navigation, route }){
           <Text style={{ textAlign: 'center', fontSize: 24, marginBottom: 8 }}>Rp. {data.nominal_bayar}</Text>
           <View style={{ paddingLeft: 8, paddingRight: 8, paddingTop: 16, paddingBottom: 16, backgroundColor: '#4982C1' }}>
             <Text style={{ color: '#FFFFFF', textAlign: 'center', marginBottom: 8 }}>{data.waktu_transaksi}</Text>
-            <Text style={{ color: '#FFFFFF', textAlign: 'center', marginBottom: 8, fontWeight: 'bold' }}> {data.merchant.nama_merchant}</Text>
-            <Text style={{ color: '#FFFFFF', textAlign: 'center', marginBottom: 8 }}>{data.merchant.alamat_merchant}</Text>
+            <Text style={{ color: '#FFFFFF', textAlign: 'center', marginBottom: 8, fontWeight: 'bold' }}>UnklabBakery</Text>
+            <Text style={{ color: '#FFFFFF', textAlign: 'center', marginBottom: 8 }}>Airmadidi</Text>
           </View>
           
           <View style={{ marginTop: 16 }}>
