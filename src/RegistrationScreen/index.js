@@ -28,7 +28,6 @@ export default function RegistrationScreen({ navigation }) {
             `${response.data.msg}`,
             [
               {
-                text: "Cancel",
                 onPress: () => console.log("Cancel Pressed"),
                 style: "cancel"
               },
